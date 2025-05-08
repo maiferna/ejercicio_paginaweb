@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+    background-color: #ECE9E5;
+}
+
+h1 {
+    font-size: 7em;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #835aff;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 3%;
+    color:#835aff;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 3%;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 8em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+    
+    h3 {
+        font-size: 2em;
+        margin: 5%;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 9em;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+    
+    h3 {
+        font-size: 2em;
+        margin: 5%;
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 10em;
+        padding-bottom: 3%;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+    
+    h3 {
+        font-size: 2em;
+        margin: 5%;
+    }
+}
+
+
+/* --------- BARRA DE NAVEGACIÓN --------- */
+.nav-bar {
+    padding: 1em;
+    background-color: #835aff;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-bar ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    font-size: 105%;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .nav-bar ul {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .nav-bar a {
+        font-size: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .nav-bar ul {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .nav-bar a {
+        font-size: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-bar ul {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .nav-bar a {
+        font-size: 90%;
+    }
+}
+
+
+
+/* --------- PRESENTACIÓN --------- */
+
+div.presentation {
+    background-color: #1a1a1a;
+    height: 100vh;
+    max-height: 120rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.presentation p {
+    font-size: 100%;
+}
+
+@media (min-width: 768px) {
+    .presentation p {
+        font-size: 105%;
+    }
+}
+@media (min-width: 992px) {
+    .presentation p {
+        font-size: 105%;
+    }
+}
+@media (min-width: 1200px) {
+    .presentation p {
+        font-size: 110%;
+    }
+}
+
+
+
+/* --------- INFORMACIÓN --------- */
+
+.bio {
+    text-align: center;
+    padding: 10%;
+}
+
+.bio p {
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 10%;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.portfolio p {
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
+.contacto {
+    text-align: center;
+    padding: 10%;
+}
+
+.contacto p {
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+
+@media (min-width: 992px) {
+    .bio p {
+        padding-bottom: 4%;
+    }
+    .portfolio p {
+        padding-bottom: 4%;
+    }
+    .contacto p {
+        padding-bottom: 4%;
+    }
+}
+@media (min-width: 1200px) {
+    .bio p {
+        padding-bottom: 3%;
+    }
+    .portfolio p {
+        padding-bottom: 3%;
+    }
+    .contacto p {
+        padding-bottom: 3%;
+    }
+}
+
+
+/* --------- FOOTER --------- */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1em;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+/* footer a {
+    color: #ffffff;
+    text-decoration: none;
+} */
+
+
+/* --------- BOTÓN --------- */
+
+.button {
+    display: inline-block; /*Hace que el botón se ajuste al contenido*/
+    padding: 0.5em 1em;
+    /* margin-top: 20px;
+    margin-bottom: 40px; */
+    background-color: #835aff;
+    border: 1px solid #1a1a1a;
+    border-radius: 0.25em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* --------- PORTFOLIO --------- */
+
+#portfolio {
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 1.5em;
+}
+
+.project p {
+    padding-bottom: 2%;
+}
+
+.image {
+    width: 80%;
+    padding-bottom: 2%;
+}
+
+video {
+    width: 80%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+
+@media (min-width: 768px) {
+    #portfolio h2 {
+        font-size: 3em;
+    }
+
+    .img-container {
+        padding-bottom: 3%;
+    }
+}
+@media (min-width: 992px) {
+    #portfolio h2 {
+        font-size: 4em;
+    }
+    
+    .project p {
+        padding-bottom: 1%;
+    }
+
+    .image {
+        width: 30%;
+    }
+
+    .img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    video {
+        width: 40%;
+    }
+}
+@media (min-width: 1200px) {
+    #portfolio h2 {
+        font-size: 5em;
+    }
+
+    .project h3 {
+        font-size: 1.75em;
+    }
+    
+    .image {
+        width: 30%;
+    }
+
+    .img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    video {
+        width: 40%;
+    }
+}
+
+
+/* --------- BIOGRAFÍA --------- */
+
+.biografia {
+    text-align: center;
+}
+
+.biografia p {
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.experiencia h3 {
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.experiencia ul {
+    text-align: left;
+    font-size: 0.85em;
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style-type: circle;
+}
+
+.experiencia {
+    margin-bottom: 5%;
+}
+
+.personal-image {
+    width: 60%;
+    border-radius: 5%;
+}
+
+.descripcion {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .biografia h2 {
+        font-size: 3em;
+    }
+    .biografia p {
+        text-align: center;
+        padding-bottom: 0;
+    }
+}
+@media (min-width: 992px) {
+    .biografia h2 {
+        font-size: 4em;
+    }
+
+    .biografia p {
+        padding-right: 5%;
+        padding-bottom: 0;
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .personal-image {
+        width: 70%;
+    }
+
+    .descripcion {
+        flex-direction: row;
+    }
+
+    .experiencia h3 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .experiencia ul {
+        font-size: 1em;
+    }
+}
+@media (min-width: 1200px) {
+    .biografia h2 {
+        font-size: 5em;
+    }
+    .biografia p {
+        padding-left: 5%;
+        padding-right: 10%;
+        text-align: left;
+        padding-bottom: 0;
+        font-size: 1em;
+    }
+    .descripcion {
+        flex-direction: row;
+    }
+
+    .personal-image {
+        width: 80%;
+    }
+
+    .experiencia h3 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .experiencia ul {
+        font-size: 1em;
+    }
+}
+
+
+
+/* -------- CONTACTO -------- */
+
+.contacto-container p {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.formulario {
+    padding: 5%;
+}
+
+.nombre, .email, .mensaje {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+    border: 1px solid #1a1a1a;
+    border-radius: 0.25em;
+}
+
+form .button {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contacto-container h2 {
+        font-size: 3em;
+    }
+    
+    .contacto-container p {
+        padding: 0;
+    }
+
+    .formulario {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (min-width: 992px) {
+    .contacto-container h2 {
+        font-size: 4em;
+    }
+
+    .formulario {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .contacto-container h2 {
+        font-size: 5em;
+    }
+
+    .formulario {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+
+/* -------- ANIMACIONES -------- */
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: coral;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+h1:hover {
+    color: coral;
+}
